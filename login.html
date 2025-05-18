@@ -1,0 +1,39 @@
+<!-- File: login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | GameJam</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="login-page">
+  <header>
+    <div class="logo">GameJam</div>
+    <nav>
+      <button onclick="handleLogin()">Login</button>
+      <button onclick="handleSignUp()">Sign Up</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Play With Friends!</h1>
+      <p>Join GameJam and experience real-time fun</p>
+      <button onclick="handleLogin()">Play</button>
+    </section>
+  </main>
+
+  <script>
+    function handleLogin() {
+      // Placeholder — later this will trigger Firebase login
+      alert("Redirecting to Login...");
+    }
+
+    function handleSignUp() {
+      // Placeholder — later this will trigger Firebase signup
+      alert("Redirecting to Sign Up...");
+    }
+  </script>
+</body>
+</html>
